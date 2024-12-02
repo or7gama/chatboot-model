@@ -1,0 +1,91 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": [
+                "hola",
+                "buenos días",
+                "buenas tardes",
+                "qué tal",
+                "cómo estás"
+            ],
+            "responses": [
+                "¡Hola! ¿En qué puedo ayudarte hoy?",
+                "¡Bienvenido! Cuéntame, ¿cómo puedo asistirte?",
+                "Hola, ¿necesitas información sobre productos o ayuda con tu compra?"
+            ]
+        },
+        {
+            "tag": "consulta_productos",
+            "patterns": [
+                "quiero información sobre un producto",
+                "¿tienen [producto] disponible?",
+                "muéstrame los productos de [categoría]",
+                "¿qué opciones tienen en [categoría]?"
+            ],
+            "responses": [
+                "Claro, aquí tienes información sobre [producto/categoría]. ¿Quieres saber más detalles, precios o disponibilidad?",
+                "Estos son los productos que tenemos en [categoría]: [lista]. ¿Te interesa alguno en particular?",
+                "Para [producto], contamos con estas opciones: [detalles]. ¿Puedo ayudarte con algo más?"
+            ]
+        },
+        {
+            "tag": "recomendaciones",
+            "patterns": [
+                "¿qué me recomiendas?",
+                "quiero sugerencias de productos",
+                "¿tienen recomendaciones para mí?"
+            ],
+            "responses": [
+                "Basándome en tu historial, te recomiendo estos productos: [lista]. ¿Te gustaría más información sobre alguno?",
+                "Te sugiero estos productos: [opciones]. ¿Hay algo más que necesites?",
+                "Aquí tienes algunas recomendaciones personalizadas: [productos]. ¿Te interesaría saber más sobre ellos?"
+            ]
+        },
+        {
+            "tag": "preguntas_frecuentes",
+            "patterns": [
+                "¿qué métodos de pago aceptan?",
+                "¿cuánto tiempo tardan en hacer envíos?",
+                "¿puedo devolver un producto?",
+                "¿cómo rastreo mi pedido?",
+                "¿tienen ofertas o descuentos disponibles?"
+            ],
+            "responses": [
+                "Aceptamos tarjetas de crédito, débito, transferencias y PayPal. ¿Necesitas más información?",
+                "El tiempo de envío depende de tu ubicación. Generalmente, entre 3 y 5 días hábiles.",
+                "Para devolver un producto, inicia sesión en tu cuenta y selecciona el pedido. ¿Necesitas ayuda con el proceso?",
+                "Una vez que tu pedido sea enviado, recibirás un número de seguimiento por correo electrónico.",
+                "Puedes consultar nuestras promociones en la sección de ofertas o suscribirte para recibir notificaciones."
+            ]
+        },
+        {
+            "tag": "asistencia_compra",
+            "patterns": [
+                "¿cómo hago una compra?",
+                "necesito ayuda con mi carrito",
+                "¿cómo pago mi pedido?",
+                "¿cómo finalizo mi compra?"
+            ],
+            "responses": [
+                "Para completar tu compra, revisa tu carrito, selecciona el método de pago y confirma la dirección de envío.",
+                "Puedes pagar tu pedido seleccionando el método de pago en la página de finalización. ¿Necesitas más ayuda?",
+                "Si tienes problemas con tu carrito, intenta actualizar la página o contáctanos para asistencia técnica."
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "gracias",
+                "eso es todo",
+                "adiós",
+                "hasta luego"
+            ],
+            "responses": [
+                "¡Gracias por usar nuestro asistente! Si necesitas algo más, aquí estaré.",
+                "¡Espero haberte ayudado! Que tengas un excelente día.",
+                "¡Hasta pronto! Vuelve cuando necesites más ayuda."
+            ]
+        }
+    ]
+}
